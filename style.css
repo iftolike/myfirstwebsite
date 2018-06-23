@@ -8,7 +8,7 @@
   /*colors*/
     .cool{background-color: gold }
 		#fancy{background-color: blue}
-		#bas{background-color: Cyan; display: chartreuse;
+		#bas{background-color: #333333; display: chartreuse;
          margin:0px;
          padding:0px;
          font-family:sans-serif;}
