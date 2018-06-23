@@ -30,6 +30,7 @@
       padding: 0}
     .white{background-color: #f0f0f0}
     * {box-sizing: border-box;}
-
+h4{color: white;}
+p{color: white;}
 html {position: relative;
       min-height: 100%;}
