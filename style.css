@@ -1,0 +1,34 @@
+  <style type="text/css">
+  /*font*/
+  @font-face{font-family: 'trana'; /*글꼴*/
+             src: local('trana'),
+              url('trana.eot'),
+              url('trana.woff') format('woff'),
+              url('trana.ttf') format('truetype');}
+  .w-font{font-family: 'trana', sans-serif}
+  /*colors*/
+    .cool{background-color: gold }
+		#fancy{background-color: blue}
+		#bas{background-color: Cyan; display: chartreuse;
+         margin:0px;
+         padding:0px;
+         font-family:sans-serif;}
+		#p{background-color: #00ffcc}
+    #d{stroke-linecap: #00ffcc}
+    #sidebar{position: fixed;
+             width: 200px;
+             height:100%;
+             background: #151719;}
+    #sidebar ul li{color: rgba(230,230,230,0.9);
+                   list-style: none;
+                   padding: 16px 10px;
+                   border-bottom: 1px solid rgba(100,100,100,0.3)}
+    #sidebar .toggle-btn{position: absolute;
+                         left: 230px;
+                         top: 20px}
+    #sidebar .toggle-btn span{}
+    *{margin: 0;
+      padding: 0}
+    .white{background-color: #f0f0f0}
+	</style>
+</head>
