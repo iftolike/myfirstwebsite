@@ -8,7 +8,7 @@
   /*colors*/
     .cool{background-color: gold }
 		#fancy{background-color: blue}
-		#bas{background-color: black; display: chartreuse;
+		#bas{background-color: black !important; display: chartreuse;
          margin:0px;
          padding:0px;
          font-family:sans-serif;}
@@ -34,3 +34,142 @@ h4{color: white;}
 p{color: white;}
 html {position: relative;
       min-height: 100%;}
+* {
+  box-sizing: border-box;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-color:white;
+  margin-bottom: 150px;
+}
+
+.allview {
+  min-height: calc(100vh - 150px);   /* 100px is height of footer */
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Hanna";
+  /*background-image: url(../images/background_img.jpg);
+  background-size: 100%;
+  background-attachment: fixed;*/
+
+}
+
+.w3-main {
+  /*min-height: 100vh;*/
+  padding-bottom: 50px;
+}
+
+.w3-top {
+    box-shadow: 5px 5px 5px grey;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+}
+
+
+#home {
+  height: cover;
+  padding: 5rem 5rem;
+  background-color: black;
+  color: white;
+  width:100%;
+}
+
+#events {
+  height: cover;
+  padding: 5rem 5rem;
+  background-color: red;
+  color: white;
+  width:100%;
+}
+
+#gov {
+  height: cover;
+  padding: 5rem 5rem;
+  background-color: white;
+  color: black;
+  width:100%;
+}
+
+#news {
+  height: cover;
+  padding: 5rem 5rem;
+  background-color: black;
+  color: white;
+  width:100%;
+}
+
+#rules {
+  height: cover;
+  padding: 5rem 5rem;
+  background-color: red;
+  color: white;
+  width:100%;
+}
+
+.yellow-link {
+  color: yellow;
+}
+
+.yellow-link:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+.red {
+  color: red;
+}
+
+.heading, .underline {
+  text-decoration: underline;
+}
+
+.text-input {
+  border-radius: 8px;
+  border: 1.5px solid red;
+  padding: 1rem;
+}
+
+.submit {
+  background-color: white;
+  border: 2px solid red;
+  color: black;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.submit:hover {
+  background-color: red; /* Green */
+  color: white;
+}
+
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+
+ul li {
+  list-style-type: square;
+}
